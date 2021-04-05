@@ -1,0 +1,89 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*=========== VARIABLES ===========*/
+:root {
+  --header-height: 3rem;
+
+  /*=========== Colors ===========*/
+  --first-color: #26a69a;
+  --first-color-light: #ecf3f2;
+  --title-color: #11443f;
+  --text-color: #5b7b78;
+  --body-color: #f5fffe;
+
+  /*=========== Fonts and typography ===========*/
+  --body-font: "Poppins", sans-serif;
+  --biggest-font: 3rem;
+  --big-font: 1.25rem;
+  --normal-font: 0.938rem;
+
+  /*=========== Font weight ===========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*=========== z index ===========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --biggest-font: 5.5rem;
+    --big-font: 2rem;
+    --normal-font: 0.1rem;
+  }
+}
+
+/*=========== BASE ===========*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+ul,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*=========== LAYOUT ===========*/
+.main {
+  position: relative;
+}
+
+.bd-container {
+  max-width: 968px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+/*=========== HEADER ===========*/
+
+/*=========== NAV ===========*/
+
+/*=========== Show menu ===========*/
